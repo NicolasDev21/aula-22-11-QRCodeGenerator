@@ -1,0 +1,510 @@
+/* p {
+    color: violet;
+    font-size: 90px;
+} */
+
+/* 08 - Classes */
+
+
+body{
+    padding-bottom: 500px ;
+}
+
+.paragraph{
+
+    background-color: #000;
+    color:aqua;
+    padding: 5px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: beige;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* 10 */
+
+h2 {
+    border-bottom: 2px dotted red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue ;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green ;
+}
+
+/* 11 */
+
+.color-name{
+    color: crimson;
+}
+
+/* 12 - HEX */
+.hex{
+    color: #55a398
+}
+
+.hex-2{
+    color: #00eaff
+}
+
+/* 13 */
+
+.simple-hex{
+    /* color: #333333; */
+    color: #333;
+
+}
+
+.simple-hex-2{
+    /* color: #aa55ff; */
+    color: #a5f;
+}
+
+/* 14 - RGB */
+
+.rgb{
+    color: rgb(255,0,0)
+}
+
+.mixed-rgb{
+    color: rgb(199, 21, 47 )
+}
+
+.rgba{
+    color: rgba(100, 199, 45, 0.3)
+}
+
+/* 16 hsl */
+
+.hsl{
+    color: hsl(100, 82%, 48%)
+}
+
+.hsl-2{
+    color: hsl(201, 82%, 48%)
+}
+
+/* 17 background color  */
+
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
+}
+
+/* 18 opacidade bg */
+
+.bg-opacity{
+    background-color: green;
+    opacity: 0.8;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #000; 
+    opacity: 0.8;
+
+}
+/* 19  RGB com opacidade  */
+
+.rgba-opacity{
+    background-color: rgba(90,12,20, 0.2);
+    color: #000;
+}
+/* 20 bg img */
+
+.bg-image{
+    padding: 10px;
+    background-image: url(../img/nature.jpg);
+    color: #fff;
+}
+
+/* 21 centralizar img no bg */
+
+.centered-bg,
+.not-centered-bg
+{
+    background-image: url(../img/bridge.jpg);
+    height: 400px;
+    width: 400px;
+}
+.centered-bg{
+    background-position: center;
+    background-size:cover;
+}
+/* 22 largura e altura */
+
+.without-padding, 
+.padding {
+    background-color: #111;
+    color: #fff;
+}
+.padding{
+    background-color: #333;
+    padding: 20px;
+}
+/* 23 height1 */
+
+
+.height1{
+    height: 200px;
+    width: 100px;
+    background-color: rebeccapurple;
+}
+.height2{
+    height: 300px;
+    background-color: #333;
+}
+/*  24 padding individual */
+
+.padding-individual{
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+    /* padding: 5px 20px 40px 10px;  */
+}
+/* 25 shorthand padding */
+
+.shortpad{
+    background-color: #444;
+    color: #fff;
+    padding: 6px 12px 18px 24px;
+}
+.shortpad-2{
+    background-color: #555;
+    color: #fff;
+    /* padding: 10px 20px 10px 20px; */
+    padding: 10px 20px;
+}
+
+/* 26 */
+
+.w-border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+
+}
+.border-box{
+    background-color: #555;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* 27 borda */
+
+.border{
+    border: 5px solid red;
+    padding: 10px;
+}
+.border2{
+    border: 2px dotted red;
+    padding: 25px;
+    background-color: #999;
+}
+
+/* 28 bordas individuai */
+
+.border-esquerda{
+    border-left: 3px solid red; 
+    
+}
+
+.border-abaixo{
+    border-bottom: 5px double red;
+}
+
+/* 29 */
+
+.arredondadas{
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+.arredondadas-2{
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.margin{
+    margin: 10px;
+    background-color: #222;
+}
+.margin-2{
+    margin-top: 10px;
+    background-color: #222;
+}
+.margin-3{
+    margin: 5px 10px 15px 20px;
+    background-color: #666;
+}
+
+/* 31 */
+
+.box-model{
+    margin: 20px;
+    background-color: aquamarine;
+    /* padding: 15px 25px; */
+    padding: 15px 25px 15px 25px;
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+/* 32 */
+
+#box-model-desafio{
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid blue;
+    background-color: antiquewhite;
+    outline: 5px solid #952;
+}
+
+.desafio-title{
+    background-color: #55a398;
+    color: #fff;
+    border: none;
+}
+
+/* 33 -  */
+.text-aligned{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 300px;
+    border: 2px solid red;
+    margin-left: 130px;
+    
+}
+
+/* 34 */
+
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remover-underline{
+    text-decoration: none;
+    color: red;
+}
+
+/* 35 */
+
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+/* 36 */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* 37 */
+.serif{
+    font-family: Georgia;
+}
+.sans-serfi{
+    font-family: Helvetica;
+}
+.monospace{
+    font-family: "Courier New";
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+/* 38  */
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+/* 39 */
+
+.thin,
+.bold,
+.bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{ 
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+/* 40 */
+
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 78px;
+}
+
+.inline-box{
+    width: 50px; 
+    height: 50px;   
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #333;
+    margin: 10px;
+    display: block;
+}
+
+/* 42 */
+.invisible{
+    display: none;
+}
+
+/* 43 */
+
+.static{
+    position: static;
+    width: 150px; 
+    height: 150px;   
+    background-color: #4f8
+}
+
+/* 44 */
+.relative{
+    position: relative;
+    background-color: #224;
+    color:#fff;
+
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: #964;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 20px;
+}
+/* 46 */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+/* 47 */
+.fixed{
+
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* 48 */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    top: 10px;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index: 1;
+}
